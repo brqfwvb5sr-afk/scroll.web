@@ -1,0 +1,19 @@
+<svg width='1200' height='1200' viewBox='0 0 1200 1200' fill='none' xmlns='http://www.w3.org/2000/svg'>
+  <defs>
+    <radialGradient id='glow' cx='52%' cy='44%' r='50%'><stop stop-color='#8EE8FF' stop-opacity='.35'/><stop offset='.55' stop-color='#997AFF' stop-opacity='.12'/><stop offset='1' stop-color='#050507' stop-opacity='0'/></radialGradient>
+    <linearGradient id='body' x1='364' y1='180' x2='806' y2='945'><stop stop-color='#fff'/><stop offset='.45' stop-color='#edf3fb'/><stop offset='1' stop-color='#8d98a9'/></linearGradient>
+    <linearGradient id='glass' x1='430' y1='222' x2='755' y2='575'><stop stop-color='#171b24'/><stop offset='1' stop-color='#030407'/></linearGradient>
+    <filter id='s'><feDropShadow dx='0' dy='58' stdDeviation='54' flood-color='#000' flood-opacity='.48'/></filter>
+  </defs>
+  <circle cx='600' cy='560' r='520' fill='url(#glow)'/>
+  <ellipse cx='606' cy='938' rx='256' ry='54' fill='#000' opacity='.36'/>
+  <g filter='url(#s)'>
+    <path d='M458 242C531 174 651 214 674 314L786 811C800 873 761 934 699 948C637 962 578 922 564 860L511 624C503 588 472 563 435 561C363 557 307 497 311 425C314 350 382 313 458 242Z' fill='url(#body)'/>
+    <path d='M413 282C467 230 552 256 570 332L590 421C608 501 548 578 466 578C392 578 332 518 332 444C332 381 367 326 413 282Z' fill='url(#glass)'/>
+    <ellipse cx='466' cy='432' rx='78' ry='92' fill='#0d1119'/>
+    <ellipse cx='466' cy='432' rx='42' ry='50' fill='#8EE8FF' opacity='.85'/>
+    <path d='M413 305C450 274 510 280 542 318' stroke='white' stroke-width='9' stroke-linecap='round' opacity='.72'/>
+    <path d='M617 592L686 886' stroke='#fff' stroke-width='14' stroke-linecap='round' opacity='.5'/>
+    <path d='M652 760C684 752 720 742 750 721' stroke='#677385' stroke-width='7' stroke-linecap='round' opacity='.45'/>
+  </g>
+</svg>
