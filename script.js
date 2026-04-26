@@ -1,31 +1,31 @@
 const chapters = [
   {
     number: '01',
-    label: 'Foundation',
-    eyebrow: 'Concept 01',
-    title: 'Foundation',
-    text: 'Am Anfang steht nur die Glasform. Beim Scrollen fährt das Objekt in die Szene, der Hintergrund reagiert und die ersten Details werden sichtbar.'
+    label: 'Case reveal',
+    eyebrow: 'Product 01',
+    title: 'Case Reveal',
+    text: 'Das Ladecase fährt gross in die Szene. Die Earbuds sind sofort erkennbar und die Seite wirkt mehr wie eine echte Produktpräsentation.'
   },
   {
     number: '02',
-    label: 'Light core',
-    eyebrow: 'Concept 02',
-    title: 'Light Core',
-    text: 'Die innere Lichtquelle öffnet sich. Ringe, Reflexe und Farbverläufe erzeugen den Eindruck eines futuristischen Premium-Objekts.'
+    label: 'Single bud',
+    eyebrow: 'Product 02',
+    title: 'Single Bud',
+    text: 'Ein einzelner Earbud rutscht nach vorne. Die Glasreflexe, der Speaker und die Form werden wie bei einem Premium-Render hervorgehoben.'
   },
   {
     number: '03',
-    label: 'Assembly',
-    eyebrow: 'Concept 03',
-    title: 'Assembly',
-    text: 'Die Module rutschen aus den Seiten in die Form hinein. Dadurch wirkt die Seite wie eine Produktpräsentation mit echter Bewegung.'
+    label: 'Exploded view',
+    eyebrow: 'Product 03',
+    title: 'Exploded View',
+    text: 'Die Bestandteile schweben auseinander. So sieht man Case, Treiber, Module und Earbuds wie in einer technischen Apple-Animation.'
   },
   {
     number: '04',
-    label: 'Interface',
-    eyebrow: 'Concept 04',
-    title: 'Interface',
-    text: 'Zum Schluss erscheint eine schwebende Steuerkarte. Die Webseite bleibt minimal, aber bekommt durch Scroll-Animationen Tiefe und Dynamik.'
+    label: 'Spatial sound',
+    eyebrow: 'Product 04',
+    title: 'Spatial Sound',
+    text: 'Zum Schluss entstehen Soundwellen um die Earbuds. Eine schwebende UI-Karte zeigt den finalen Produktmoment.'
   }
 ];
 
@@ -39,7 +39,7 @@ const stageEyebrow = document.getElementById('stageEyebrow');
 const stageTitle = document.getElementById('stageTitle');
 const stageText = document.getElementById('stageText');
 
-let activeStage = 0;
+let activeStage = -1;
 let ticking = false;
 
 function clamp(value, min, max) {
