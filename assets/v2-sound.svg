@@ -1,0 +1,29 @@
+<svg width="1600" height="1200" viewBox="0 0 1600 1200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="50%" r="58%"><stop stop-color="#8EE8FF" stop-opacity=".24"/><stop offset=".42" stop-color="#FF91BC" stop-opacity=".13"/><stop offset="1" stop-color="#000" stop-opacity="0"/></radialGradient>
+    <linearGradient id="white" x1="500" y1="250" x2="1050" y2="920"><stop stop-color="#fff"/><stop offset=".5" stop-color="#F0F5FB"/><stop offset="1" stop-color="#A2ADBE"/></linearGradient>
+    <linearGradient id="dark" x1="590" y1="350" x2="1000" y2="690"><stop stop-color="#171C26"/><stop offset="1" stop-color="#030407"/></linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="60" stdDeviation="50" flood-color="#000" flood-opacity=".48"/></filter>
+  </defs>
+  <rect width="1600" height="1200" fill="transparent"/>
+  <circle cx="800" cy="600" r="610" fill="url(#glow)"/>
+  <g opacity=".48" stroke-linecap="round">
+    <path d="M285 600C405 410 570 320 800 320C1030 320 1195 410 1315 600" stroke="#8EE8FF" stroke-width="12"/>
+    <path d="M395 666C490 535 620 472 800 472C980 472 1110 535 1205 666" stroke="white" stroke-opacity=".72" stroke-width="9"/>
+    <path d="M520 730C592 658 682 624 800 624C918 624 1008 658 1080 730" stroke="#FF91BC" stroke-width="8"/>
+  </g>
+  <g filter="url(#shadow)">
+    <g transform="rotate(-8 650 600)">
+      <path d="M570 350C632 300 728 332 747 415L785 582C799 648 749 711 681 711H596C520 711 458 649 458 573V480C458 425 508 384 570 350Z" fill="url(#white)"/>
+      <ellipse cx="622" cy="505" rx="82" ry="94" fill="url(#dark)"/>
+      <ellipse cx="622" cy="505" rx="42" ry="48" fill="#8EE8FF"/>
+      <rect x="705" y="672" width="104" height="280" rx="52" fill="url(#white)"/>
+    </g>
+    <g transform="rotate(8 950 600)">
+      <path d="M1030 350C968 300 872 332 853 415L815 582C801 648 851 711 919 711H1004C1080 711 1142 649 1142 573V480C1142 425 1092 384 1030 350Z" fill="url(#white)"/>
+      <ellipse cx="978" cy="505" rx="82" ry="94" fill="url(#dark)"/>
+      <ellipse cx="978" cy="505" rx="42" ry="48" fill="#FF91BC"/>
+      <rect x="791" y="672" width="104" height="280" rx="52" fill="url(#white)"/>
+    </g>
+  </g>
+</svg>
