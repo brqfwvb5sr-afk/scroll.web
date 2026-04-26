@@ -1,0 +1,29 @@
+<svg width='1200' height='1200' viewBox='0 0 1200 1200' fill='none' xmlns='http://www.w3.org/2000/svg'>
+  <defs>
+    <radialGradient id='bg' cx='50%' cy='47%' r='57%'><stop stop-color='#FFB86C' stop-opacity='.28'/><stop offset='.55' stop-color='#8EE8FF' stop-opacity='.12'/><stop offset='1' stop-color='#050507' stop-opacity='0'/></radialGradient>
+    <linearGradient id='metal' x1='280' y1='240' x2='880' y2='890'><stop stop-color='#fff'/><stop offset='.38' stop-color='#e7eef8'/><stop offset='1' stop-color='#7f8ca0'/></linearGradient>
+    <filter id='drop'><feDropShadow dx='0' dy='46' stdDeviation='44' flood-color='#000' flood-opacity='.45'/></filter>
+  </defs>
+  <circle cx='600' cy='600' r='520' fill='url(#bg)'/>
+  <g opacity='.38'>
+    <path d='M237 600H963' stroke='white' stroke-width='2' stroke-dasharray='12 18'/>
+    <path d='M600 237V963' stroke='white' stroke-width='2' stroke-dasharray='12 18'/>
+    <circle cx='600' cy='600' r='268' stroke='white' stroke-opacity='.35' stroke-width='2'/>
+  </g>
+  <g filter='url(#drop)'>
+    <rect x='373' y='696' width='454' height='166' rx='70' fill='url(#metal)'/>
+    <rect x='431' y='731' width='338' height='75' rx='34' fill='#0b0d12' opacity='.9'/>
+    <circle cx='600' cy='827' r='8' fill='#647187'/>
+    <path d='M445 420C494 375 574 398 590 467L620 596C631 643 594 688 546 688C499 688 459 655 450 609L420 475C414 452 425 438 445 420Z' fill='url(#metal)'/>
+    <ellipse cx='506' cy='498' rx='55' ry='62' fill='#10141c'/>
+    <ellipse cx='506' cy='498' rx='29' ry='34' fill='#8EE8FF'/>
+    <path d='M755 420C706 375 626 398 610 467L580 596C569 643 606 688 654 688C701 688 741 655 750 609L780 475C786 452 775 438 755 420Z' fill='url(#metal)'/>
+    <ellipse cx='694' cy='498' rx='55' ry='62' fill='#10141c'/>
+    <ellipse cx='694' cy='498' rx='29' ry='34' fill='#FF91BC'/>
+    <circle cx='600' cy='342' r='48' fill='#11151e'/>
+    <circle cx='600' cy='342' r='26' fill='#FFB86C'/>
+    <rect x='553' y='236' width='94' height='52' rx='26' fill='url(#metal)'/>
+    <rect x='302' y='585' width='96' height='96' rx='36' fill='url(#metal)'/>
+    <rect x='802' y='585' width='96' height='96' rx='36' fill='url(#metal)'/>
+  </g>
+</svg>
