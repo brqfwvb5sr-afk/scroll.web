@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Nova Form — Scroll Experience</title>
+  <meta name="description" content="Eine cleane Apple-inspirierte Scroll-Webseite mit animiertem Produkt-Visual." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="stage-0">
+  <div class="noise" aria-hidden="true"></div>
+  <header class="site-header" aria-label="Hauptnavigation">
+    <a class="brand" href="#top" aria-label="Nova Form Startseite">
+      <span class="brand-mark">NV</span>
+      <span>Nova Form</span>
+    </a>
+    <nav class="nav-links" aria-label="Navigation">
+      <a href="#object">Object</a>
+      <a href="#experience">Experience</a>
+      <a href="#details">Details</a>
+    </nav>
+    <a class="nav-cta" href="#details">Explore</a>
+  </header>
+
+  <main id="top">
+    <section class="hero section" id="object">
+      <div class="hero-copy">
+        <p class="eyebrow">Ambient object / concept website</p>
+        <h1>Ein digitales Objekt, das sich beim Scrollen zusammensetzt.</h1>
+        <p class="hero-lead">Eine cleane Landingpage mit dunklem Premium-Look, sanften Parallax-Bewegungen und einem generierten 3D-artigen Visual aus CSS und SVG.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#experience">Animation ansehen</a>
+          <a class="button ghost" href="#details">Technik</a>
+        </div>
+      </div>
+
+      <div class="hero-visual" aria-hidden="true">
+        <div class="hero-glow"></div>
+        <div class="floating-panel panel-a">
+          <span>01</span>
+          <strong>Glass shell</strong>
+        </div>
+        <div class="floating-panel panel-b">
+          <span>04</span>
+          <strong>Motion UI</strong>
+        </div>
+        <div class="artifact mini">
+          <div class="artifact-ring"></div>
+          <div class="artifact-core"></div>
+          <div class="artifact-shine"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="scrollytelling" id="experience" aria-label="Scroll Experience">
+      <div class="sticky-stage">
+        <div class="stage-backdrop" aria-hidden="true"></div>
+        <div class="chapter-meta">
+          <span class="chapter-number" id="chapterNumber">01</span>
+          <span class="chapter-line"></span>
+          <span class="chapter-label" id="chapterLabel">Foundation</span>
+        </div>
+
+        <div class="visual-stage" aria-hidden="true">
+          <div class="light-beam beam-one"></div>
+          <div class="light-beam beam-two"></div>
+          <div class="grid-plane"></div>
+
+          <div class="product" id="productVisual">
+            <div class="halo halo-back"></div>
+            <div class="device-shadow"></div>
+            <div class="glass-shell"></div>
+            <div class="liquid-glass"></div>
+            <div class="core-orb"></div>
+            <div class="sound-ring ring-one"></div>
+            <div class="sound-ring ring-two"></div>
+            <div class="sound-ring ring-three"></div>
+            <div class="module module-top"></div>
+            <div class="module module-right"></div>
+            <div class="module module-bottom"></div>
+            <div class="module module-left"></div>
+            <div class="micro-dot dot-one"></div>
+            <div class="micro-dot dot-two"></div>
+            <div class="micro-dot dot-three"></div>
+          </div>
+
+          <div class="control-card" id="controlCard">
+            <div class="control-topline"></div>
+            <p>NOVA FORM</p>
+            <strong>Spatial Light</strong>
+            <div class="control-slider"><span></span></div>
+            <div class="control-buttons">
+              <i></i><i></i><i></i>
+            </div>
+          </div>
+        </div>
+
+        <article class="stage-copy" aria-live="polite">
+          <p class="eyebrow" id="stageEyebrow">Concept 01</p>
+          <h2 id="stageTitle">Foundation</h2>
+          <p id="stageText">Am Anfang steht nur die Glasform. Beim Scrollen fährt das Objekt in die Szene, der Hintergrund reagiert und die ersten Details werden sichtbar.</p>
+        </article>
+      </div>
+
+      <div class="story-steps" aria-hidden="true">
+        <div class="story-step" data-stage="0"></div>
+        <div class="story-step" data-stage="1"></div>
+        <div class="story-step" data-stage="2"></div>
+        <div class="story-step" data-stage="3"></div>
+      </div>
+    </section>
+
+    <section class="details section" id="details">
+      <div class="details-heading">
+        <p class="eyebrow">Built for scroll</p>
+        <h2>Ohne Framework. Nur HTML, CSS und JavaScript.</h2>
+      </div>
+      <div class="feature-grid">
+        <article>
+          <span>01</span>
+          <h3>Sticky Stage</h3>
+          <p>Der Hauptbereich bleibt stehen, während der Scrollfortschritt die Animationen steuert.</p>
+        </article>
+        <article>
+          <span>02</span>
+          <h3>Parallax Layers</h3>
+          <p>Objekt, Licht, Karten und Linien bewegen sich mit unterschiedlicher Geschwindigkeit.</p>
+        </article>
+        <article>
+          <span>03</span>
+          <h3>Generated Visual</h3>
+          <p>Das Produktbild ist kein Screenshot, sondern direkt mit CSS/SVG-artigen Formen gebaut.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
