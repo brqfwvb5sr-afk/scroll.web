@@ -1,0 +1,25 @@
+<svg width='1200' height='1200' viewBox='0 0 1200 1200' fill='none' xmlns='http://www.w3.org/2000/svg'>
+  <defs>
+    <radialGradient id='bg' cx='52%' cy='48%' r='55%'><stop stop-color='#8EE8FF' stop-opacity='.3'/><stop offset='.45' stop-color='#FF7AA8' stop-opacity='.13'/><stop offset='1' stop-color='#050507' stop-opacity='0'/></radialGradient>
+    <linearGradient id='body' x1='420' y1='260' x2='780' y2='850'><stop stop-color='#fff'/><stop offset='.5' stop-color='#edf3fb'/><stop offset='1' stop-color='#8591a5'/></linearGradient>
+    <filter id='d'><feDropShadow dx='0' dy='56' stdDeviation='46' flood-color='#000' flood-opacity='.48'/></filter>
+  </defs>
+  <circle cx='600' cy='600' r='520' fill='url(#bg)'/>
+  <g opacity='.42'>
+    <path d='M215 603C302 466 421 392 600 392C779 392 898 466 985 603' stroke='#8EE8FF' stroke-width='10' stroke-linecap='round'/>
+    <path d='M288 658C363 559 461 507 600 507C739 507 837 559 912 658' stroke='#fff' stroke-opacity='.7' stroke-width='8' stroke-linecap='round'/>
+    <path d='M371 707C426 651 498 622 600 622C702 622 774 651 829 707' stroke='#FF91BC' stroke-width='7' stroke-linecap='round'/>
+  </g>
+  <g filter='url(#d)'>
+    <path d='M438 370C505 318 600 354 615 438L648 618C661 690 606 756 533 756C469 756 415 710 405 647L377 474C369 427 397 402 438 370Z' fill='url(#body)'/>
+    <ellipse cx='500' cy='481' rx='76' ry='86' fill='#10141c'/>
+    <ellipse cx='500' cy='481' rx='39' ry='46' fill='#8EE8FF'/>
+    <path d='M762 370C695 318 600 354 585 438L552 618C539 690 594 756 667 756C731 756 785 710 795 647L823 474C831 427 803 402 762 370Z' fill='url(#body)'/>
+    <ellipse cx='700' cy='481' rx='76' ry='86' fill='#10141c'/>
+    <ellipse cx='700' cy='481' rx='39' ry='46' fill='#FF91BC'/>
+    <rect x='440' y='717' width='96' height='218' rx='48' fill='url(#body)' transform='rotate(-8 440 717)'/>
+    <rect x='664' y='717' width='96' height='218' rx='48' fill='url(#body)' transform='rotate(8 664 717)'/>
+    <path d='M464 398C492 374 538 378 562 408' stroke='white' stroke-width='8' stroke-linecap='round' opacity='.7'/>
+    <path d='M735 398C707 374 661 378 637 408' stroke='white' stroke-width='8' stroke-linecap='round' opacity='.55'/>
+  </g>
+</svg>
