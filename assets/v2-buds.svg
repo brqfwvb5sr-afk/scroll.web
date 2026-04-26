@@ -1,0 +1,26 @@
+<svg width="1600" height="1200" viewBox="0 0 1600 1200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="50%" r="55%"><stop stop-color="#9DEBFF" stop-opacity=".26"/><stop offset=".48" stop-color="#FF91BC" stop-opacity=".10"/><stop offset="1" stop-color="#000" stop-opacity="0"/></radialGradient>
+    <linearGradient id="white" x1="500" y1="235" x2="970" y2="970"><stop stop-color="#fff"/><stop offset=".48" stop-color="#EFF4FA"/><stop offset="1" stop-color="#A4AFC0"/></linearGradient>
+    <linearGradient id="dark" x1="545" y1="300" x2="790" y2="560"><stop stop-color="#151A24"/><stop offset="1" stop-color="#020306"/></linearGradient>
+    <filter id="shadow" x="250" y="100" width="1100" height="980" filterUnits="userSpaceOnUse"><feDropShadow dx="0" dy="64" stdDeviation="54" flood-color="#000" flood-opacity=".50"/></filter>
+  </defs>
+  <rect width="1600" height="1200" fill="transparent"/>
+  <circle cx="800" cy="600" r="590" fill="url(#glow)"/>
+  <g filter="url(#shadow)">
+    <g transform="rotate(-10 650 590)">
+      <path d="M560 295C630 235 745 272 766 363L815 579C831 650 778 718 705 718H610C522 718 451 647 451 559V463C451 395 505 342 560 295Z" fill="url(#white)"/>
+      <ellipse cx="617" cy="482" rx="95" ry="110" fill="url(#dark)"/>
+      <ellipse cx="617" cy="482" rx="50" ry="58" fill="#8EE8FF"/>
+      <rect x="690" y="670" width="110" height="300" rx="55" fill="url(#white)"/>
+      <path d="M570 326C610 298 673 302 710 348" stroke="white" stroke-width="10" stroke-linecap="round" opacity=".75"/>
+    </g>
+    <g transform="rotate(10 950 590)">
+      <path d="M1040 295C970 235 855 272 834 363L785 579C769 650 822 718 895 718H990C1078 718 1149 647 1149 559V463C1149 395 1095 342 1040 295Z" fill="url(#white)"/>
+      <ellipse cx="983" cy="482" rx="95" ry="110" fill="url(#dark)"/>
+      <ellipse cx="983" cy="482" rx="50" ry="58" fill="#FF91BC"/>
+      <rect x="800" y="670" width="110" height="300" rx="55" fill="url(#white)"/>
+      <path d="M1030 326C990 298 927 302 890 348" stroke="white" stroke-width="10" stroke-linecap="round" opacity=".55"/>
+    </g>
+  </g>
+</svg>
