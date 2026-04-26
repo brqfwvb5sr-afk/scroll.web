@@ -4,28 +4,28 @@ const chapters = [
     label: 'Case reveal',
     eyebrow: 'Product 01',
     title: 'Case Reveal',
-    text: 'Das Ladecase fährt gross in die Szene. Die Earbuds sind sofort erkennbar und die Seite wirkt mehr wie eine echte Produktpräsentation.'
+    text: 'Das Ladecase fährt gross in die Szene. Die Earbuds sind sofort erkennbar und wirken jetzt wie ein echtes Premium-Produktbild.'
   },
   {
     number: '02',
-    label: 'Single bud',
+    label: 'Earbuds',
     eyebrow: 'Product 02',
-    title: 'Single Bud',
-    text: 'Ein einzelner Earbud rutscht nach vorne. Die Glasreflexe, der Speaker und die Form werden wie bei einem Premium-Render hervorgehoben.'
+    title: 'Earbuds',
+    text: 'Die zwei Earbuds stehen frei im Fokus. Die dunkle Studio-Optik und die Reflexionen passen sauber zum ersten Bild.'
   },
   {
     number: '03',
     label: 'Exploded view',
     eyebrow: 'Product 03',
     title: 'Exploded View',
-    text: 'Die Bestandteile schweben auseinander. So sieht man Case, Treiber, Module und Earbuds wie in einer technischen Apple-Animation.'
+    text: 'Die Exploded View zeigt das Produkt technischer und futuristischer, aber ohne die Seite zu überladen.'
   },
   {
     number: '04',
     label: 'Spatial sound',
     eyebrow: 'Product 04',
     title: 'Spatial Sound',
-    text: 'Zum Schluss entstehen Soundwellen um die Earbuds. Eine schwebende UI-Karte zeigt den finalen Produktmoment.'
+    text: 'Zum Schluss kommt der Hero-Moment mit Spatial-Audio-Gefühl und einer schwebenden UI-Karte.'
   }
 ];
 
