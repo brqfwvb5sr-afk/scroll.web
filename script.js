@@ -29,6 +29,7 @@ const chapters = [
   }
 ];
 
+const spatialImage = 'assets/real/6bf2d392-5be2-40c8-ac12-da311e81f7d3.png';
 const body = document.body;
 const scrolly = document.querySelector('.scrollytelling');
 const product = document.getElementById('productVisual');
@@ -38,6 +39,10 @@ const chapterLabel = document.getElementById('chapterLabel');
 const stageEyebrow = document.getElementById('stageEyebrow');
 const stageTitle = document.getElementById('stageTitle');
 const stageText = document.getElementById('stageText');
+const spatialScene = document.querySelector('.scene-waves');
+const spatialCard = document.querySelector('.image-grid article:last-child img');
+if (spatialScene) spatialScene.src = spatialImage;
+if (spatialCard) spatialCard.src = spatialImage;
 
 let activeStage = -1;
 let ticking = false;
