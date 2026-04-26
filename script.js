@@ -29,7 +29,7 @@ const chapters = [
   }
 ];
 
-const spatialImage = 'assets/real/6bf2d392-5be2-40c8-ac12-da311e81f7d3.png';
+const spatialImage = 'assets/real/earbuds_spatial_audio_transparent.png';
 const body = document.body;
 const scrolly = document.querySelector('.scrollytelling');
 const product = document.getElementById('productVisual');
