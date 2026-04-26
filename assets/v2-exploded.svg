@@ -1,0 +1,32 @@
+<svg width="1600" height="1200" viewBox="0 0 1600 1200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="50%" r="58%"><stop stop-color="#FFB86C" stop-opacity=".22"/><stop offset=".5" stop-color="#8EE8FF" stop-opacity=".12"/><stop offset="1" stop-color="#000" stop-opacity="0"/></radialGradient>
+    <linearGradient id="white" x1="390" y1="210" x2="1160" y2="980"><stop stop-color="#fff"/><stop offset=".52" stop-color="#EEF3FA"/><stop offset="1" stop-color="#9EAABC"/></linearGradient>
+    <linearGradient id="dark" x1="560" y1="360" x2="1000" y2="760"><stop stop-color="#171C26"/><stop offset="1" stop-color="#030407"/></linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="54" stdDeviation="46" flood-color="#000" flood-opacity=".48"/></filter>
+  </defs>
+  <rect width="1600" height="1200" fill="transparent"/>
+  <circle cx="800" cy="600" r="600" fill="url(#glow)"/>
+  <g opacity=".34">
+    <circle cx="800" cy="600" r="330" stroke="white" stroke-width="2"/>
+    <circle cx="800" cy="600" r="210" stroke="white" stroke-width="2" stroke-dasharray="10 16"/>
+    <path d="M300 600H1300M800 170V1030" stroke="white" stroke-width="2" stroke-dasharray="10 16"/>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="512" y="700" width="576" height="160" rx="80" fill="url(#white)"/>
+    <rect x="585" y="736" width="430" height="76" rx="38" fill="url(#dark)"/>
+    <circle cx="800" cy="826" r="10" fill="#707C90"/>
+    <g transform="translate(-120 -40) rotate(-8 680 520)">
+      <path d="M580 350C630 310 708 335 722 400L748 520C761 580 716 638 655 638H590C520 638 464 582 464 512V448C464 405 502 380 580 350Z" fill="url(#white)"/>
+      <ellipse cx="612" cy="490" rx="66" ry="78" fill="#0A0E15"/><ellipse cx="612" cy="490" rx="34" ry="40" fill="#8EE8FF"/>
+    </g>
+    <g transform="translate(120 -40) rotate(8 920 520)">
+      <path d="M1020 350C970 310 892 335 878 400L852 520C839 580 884 638 945 638H1010C1080 638 1136 582 1136 512V448C1136 405 1098 380 1020 350Z" fill="url(#white)"/>
+      <ellipse cx="988" cy="490" rx="66" ry="78" fill="#0A0E15"/><ellipse cx="988" cy="490" rx="34" ry="40" fill="#FF91BC"/>
+    </g>
+    <circle cx="800" cy="330" r="54" fill="url(#dark)"/><circle cx="800" cy="330" r="28" fill="#FFB86C"/>
+    <rect x="740" y="230" width="120" height="56" rx="28" fill="url(#white)"/>
+    <rect x="312" y="565" width="118" height="118" rx="42" fill="url(#white)"/>
+    <rect x="1170" y="565" width="118" height="118" rx="42" fill="url(#white)"/>
+  </g>
+</svg>
